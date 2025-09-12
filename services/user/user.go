@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 	"time"
-	"user-service/common/config"
+	"user-service/config"
 	"user-service/constants"
 	errConstants "user-service/constants/error"
 	"user-service/domain/dto"
