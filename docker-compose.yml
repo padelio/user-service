@@ -1,8 +1,8 @@
-name: padel-booking-order-app
+name: padel-booking-app
 services:
   user-service:
     container_name: user-service
-    image: masadamsahid/padel-booking-order-app-user-service
+    image: masadamsahid/padel-booking-app-user-service:1
     ports:
       - "8001:8001"
     env_file:
