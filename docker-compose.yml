@@ -1,9 +1,9 @@
-name: padel-booking-app
+name: padelio-app
 services:
   user-service:
     container_name: user-service
     platform: linux/amd64
-    # image: masadamsahid/padel-booking-app-user-service:1
+    # image: masadamsahid/padelio-user-service:1
     build:
       context: .
       dockerfile: Dockerfile
