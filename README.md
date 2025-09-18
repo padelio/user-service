@@ -2,7 +2,7 @@
 
 <h3>Description</h3>
 
-<p>This repository will be used to manage user and auth services for field booking app in the microservices system.</p>
+<p>This repository will be used to manage user and auth services for padelio booking app in the microservices system.</p>
 
 <h3>Directory Structure</h3>
 
