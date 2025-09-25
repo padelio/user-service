@@ -3,7 +3,7 @@ services:
   user-service:
     container_name: user-service
     platform: linux/amd64
-    image: masadamsahid/padelio-user-service:11
+    image: masadamsahid/padelio-user-service:15
     # build:
     #   context: .
     #   dockerfile: Dockerfile
