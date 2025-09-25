@@ -26,4 +26,4 @@ EXPOSE 8001
 
 COPY --from=builder /app /app
 
-ENTRYPOINT ["/app/padelio-user-service"]
+ENTRYPOINT ["/app/user-service"]
