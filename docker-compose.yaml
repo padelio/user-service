@@ -1,9 +1,9 @@
 name: padelio-app
 services:
-  padelio-user-service:
-    container_name: padelio-user-service
+  user-service:
+    container_name: user-service
     platform: linux/amd64
-    image: masadamsahid/padelio-user-service:13
+    image: masadamsahid/padelio-user-service:11
     # build:
     #   context: .
     #   dockerfile: Dockerfile
