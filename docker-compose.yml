@@ -1,7 +1,7 @@
 name: padelio-app
 services:
-  user-service:
-    container_name: user-service
+  padelio-user-service:
+    container_name: padelio-user-service
     platform: linux/amd64
     image: masadamsahid/padelio-user-service:1
     # build:
