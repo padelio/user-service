@@ -66,6 +66,7 @@ pipeline {
           ])
 
           sh 'ls -lah'
+          
         }
       }
     }
